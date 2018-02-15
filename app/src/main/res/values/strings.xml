@@ -9,4 +9,6 @@
     <string name="tool_text">Text Tool</string>
     <string name="tool_fill">Fill Tool</string>
     <string name="tool_smudge">Smudge Tool</string>
+
+    <string name="header_options">Options</string>
 </resources>
