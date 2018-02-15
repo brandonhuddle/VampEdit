@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="org.vampedit.android.EditorActivity">
+
+    <org.vampedit.android.drawview.DrawView
+        android:id="@+id/drawing"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFFFFFFF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/background_toolbar"
+            android:gravity="center_horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal">
+
+                    <ImageButton
+                        android:id="@+id/eraser_button"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:contentDescription="@string/tool_eraser"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/ic_eraser"/>
+
+                    <ImageButton
+                        android:id="@+id/brush_button"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:contentDescription="@string/tool_brush"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/ic_pencil" />
+
+                    <ImageButton
+                        android:id="@+id/color_picker_button"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:contentDescription="@string/tool_color_picker"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/ic_color_picker" />
+
+                    <ImageButton
+                        android:id="@+id/select_tool_button"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:contentDescription="@string/tool_select"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/ic_select" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal">
+
+                    <ImageButton
+                        android:id="@+id/smudge_tool_button"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:contentDescription="@string/tool_smudge"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/ic_smudge" />
+
+                    <ImageButton
+                        android:id="@+id/fill_tool_button"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:contentDescription="@string/tool_fill"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/ic_fill_tool" />
+
+                    <ImageButton
+                        android:id="@+id/text_button"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:contentDescription="@string/tool_text"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/ic_text" />
+
+                    <ImageButton
+                        android:id="@+id/perspective_tool_button"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:contentDescription="@string/tool_perspective_manipulation"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/ic_perspective" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

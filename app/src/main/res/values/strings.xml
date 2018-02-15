@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">VampEdit</string>
+
+    <string name="tool_select">Selection Tool</string>
+    <string name="tool_color_picker">Color Picker</string>
+    <string name="tool_brush">Brush</string>
+    <string name="tool_eraser">Eraser</string>
+    <string name="tool_perspective_manipulation">Perspective Manipulation</string>
+    <string name="tool_text">Text Tool</string>
+    <string name="tool_fill">Fill Tool</string>
+    <string name="tool_smudge">Smudge Tool</string>
+</resources>
